@@ -864,7 +864,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -887,7 +887,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1026,14 +1026,14 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
