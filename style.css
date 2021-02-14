@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.jpg");
     background-size: 280px 280px;
 }
 
@@ -123,7 +122,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc,
+.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -133,7 +132,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -651,8 +650,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 500;
-    color: black!important;
+    font-weight: 400;
+    color: black !important;
 }
 
 .container {
@@ -678,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -707,11 +706,11 @@ p {
 
 h2 {
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -737,9 +736,9 @@ h4 {
 }
 
 .white {
-    color: black!important;
-    margin: 20px 0 50px 0;
-    font-weight: 600;
+    color: black !important;
+    margin-bottom: 25px;
+    font-weight: 500;
 }
 
 .portfolio-thumb {
@@ -779,12 +778,11 @@ h4 {
 
 .tc-white {
     color: white!important;
-    font-weight: 500;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black!important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -793,11 +791,11 @@ h4 {
 }
 
 .ltc-white {
-    color: black!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: white!important;
+    color: #F3976C !important;
 }
 
 .ltc-atomic-tangerine {
@@ -858,13 +856,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -887,7 +885,7 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1026,14 +1024,14 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
